@@ -1,5 +1,5 @@
-const Cardontroller = require("../../card");
+const CardController = require("../../card");
 
 module.exports = app => {
-  app.get("/getcards", Cardontroller.getCards);
+  app.get("/getcards", CardController.getCards);
 };
